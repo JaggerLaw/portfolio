@@ -24,6 +24,15 @@
 }
 
 .main-navbar{
-  
+  display: flex;
+  justify-content: center;
+}
+
+.main-navbar li{
+  list-style: none;
+  display: inline-flex;
+  padding-right: 100px;
+  text-decoration: none;
+  font-size: 17px;
 }
 

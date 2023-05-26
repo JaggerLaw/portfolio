@@ -6,9 +6,8 @@ function App() {
   return (
     <>
       <div class="container">
-        <p>Welcome</p>
-        <nav class="main-navbar">
-          <ul>
+        <nav>
+          <ul class="main-navbar">
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
