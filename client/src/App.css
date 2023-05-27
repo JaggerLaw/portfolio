@@ -24,6 +24,18 @@
 }
 
 .main-navbar{
+  display: flex;
+  justify-content: center;
   
+  outline: 2px solid #3d839e;
+}
+
+.main-navbar li{
+  list-style: none;
+  display: inline-flex;
+  padding-right: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 2px solid #000000;
 }
 
