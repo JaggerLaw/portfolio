@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.main-pic{
+  transform: scale(0.6);
+  border-radius: 50%;
+}
+
 .main-navbar{
   margin: 0;
   display: flex;
@@ -12,26 +17,29 @@
 .main-navbar li{
   list-style: none;
   display: inline-flex;
-  padding: 0 1rem;
+  padding: 0 3rem;
   text-decoration: none;
   font-size: 17px;
   
 }
 
 .container{
-  background-image: url('../img/jake-grad_cropped.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  background-size:contain;
+  object-position: center;
+  max-height: 50vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: white;
 }
 
 section {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(75, 64, 64, 0.2);
   padding: 1rem;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 section h3 {
