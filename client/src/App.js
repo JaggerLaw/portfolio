@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './img/gira.jpg';
 
 function App() {
   document.title = 'Jake G Portfolio';
@@ -29,7 +30,7 @@ function App() {
         </section>
         <div className="card-section">
           <div className="card">
-          <img src="C:\Users\GGPC\Documents\[05] VS Code\DevWork\client\img\gira.jpg" alt="Gira" />
+          <img src={logo} alt="Gira"/>
             <h3>Project 1</h3>
             <p>Description of Project 1</p>
             <a href="#">Learn More</a>
