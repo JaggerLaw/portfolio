@@ -1,7 +1,7 @@
-import './App.css'
+import './App.css';
 
 function App() {
-  document.title = 'Jake G Portfolio'
+  document.title = 'Jake G Portfolio';
 
   return (
     <>
@@ -27,9 +27,17 @@ function App() {
           <h3>About</h3>
           <p>I am Jake, a software developer passionate about the development lifecycle. I have proper work experience with worksafe.</p>
         </section>
+        <div className="card-section">
+          <div className="card">
+          <img src="C:\Users\GGPC\Documents\[05] VS Code\DevWork\client\img\gira.jpg" alt="Gira" />
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
       </div>
     </>
   );
 }
 
-export default App
+export default App;
