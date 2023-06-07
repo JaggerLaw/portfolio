@@ -3,32 +3,39 @@
 }
 
 .main-pic{
+  position: relative;
+  top: -100px; /* Adjust the value to move the picture closer to the navbar */
   transform: scale(0.6);
   border-radius: 50%;
 }
 
 .main-navbar{
   margin: 0;
+  background-image: url('./img/nav-img2.png');
+  height: 4rem;
   display: flex;
   justify-content: center;
   color: white;
+
 }
 
 .main-navbar li{
   list-style: none;
   display: inline-flex;
-  padding: 0 3rem;
+  text-align: center;
+  padding: 1rem 3rem;
   text-decoration: none;
   font-size: 17px;
-  
 }
 
 .container{
-  background-color: bisque;
+  background-color: 0,0,0,0.8;
+  background: linear-gradient(bisque, rgb(245, 178, 95));
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   object-position: center;
-  max-height: 50vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,6 +84,9 @@ section h3 {
   height: auto;
   border-radius: 5px;
   margin-bottom: 10px;
+  max-height: 40vh;
+  min-height: 40vh;
+
 }
 
 .card h3 {

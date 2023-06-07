@@ -54,6 +54,12 @@ function App() {
         </div>
         <section>
           contact information
+          <ul>
+            <li>Location</li>
+            <li>Phone Number</li>
+            <li>Email</li>
+            <li>LinkedIn</li>
+          </ul>
         </section>
       </div>
     </>
