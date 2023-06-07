@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './img/gira.jpg';
+import project1 from './img/gira.jpg';
 import project2 from './img/projectR.jpg';
 import project3 from './img/logo192.png';
 import me from './img/jake-grad_cropped.jpg';
@@ -13,43 +13,47 @@ function App() {
         <nav>
           <ul className="main-navbar">
             <li>
-              <a href="#">Home</a>
+              <a href="#index.js">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#index.js">About</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#index.js">Projects</a>
             </li>
             <li>
-              <a href="#">Contacts</a>
+              <a href="#index.js">Contacts</a>
             </li>
           </ul>
         </nav>
-        <img className="main-pic" src={me}/>
+        <img className="main-pic" src={me} alt="main pic"/>
         <h3>Jake Gardner</h3>
         <section>
           <h3>About</h3>
           <p>I am Jake, a software developer passionate about the development lifecycle. I have proper work experience with worksafe.</p>
         </section>
+        <div>
+          <h3>Skills</h3>
+          <p>C++</p>
+        </div>
         <div className="card-section">
           <div className="card">
-          <img src={logo} alt="Gira"/>
+          <img src={project1} alt="Gira"/>
             <h3>Project 1</h3>
             <p>Description of Project 1</p>
-            <a href="#">Learn More</a>
+            <a href="#LearnMore">Learn More</a>
           </div>
           <div className="card">
-            <img src={project2}/>
+            <img src={project2} alt="project2"/>
             <h3>Project 2</h3>
             <p>Desription of project 2</p>
-            <a href="#">Learn more</a>
+            <a href="#LearnMore">Learn more</a>
           </div>
           <div className="card">
-            <img src={project3}/>
+            <img src={project3} alt="project3"/>
             <h3>Project 3</h3>
             <p>Desription of project 3</p>
-            <a href="#">Learn more</a>
+            <a href="#LearnMore">Learn more</a>
           </div>
         </div>
         <section>

@@ -4,17 +4,19 @@
 
 .main-pic{
   position: relative;
-  top: -100px; /* Adjust the value to move the picture closer to the navbar */
+  top: -80px; /* Adjust the value to move the picture closer to the navbar */
   transform: scale(0.6);
   border-radius: 50%;
 }
 
 .main-navbar{
   margin: 0;
-  background-image: url('./img/nav-img2.png');
+  /* background-image: url('./img/nav-img2.png'); */
   height: 4rem;
+  width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  background-color: white;
   color: white;
 
 }
@@ -29,17 +31,20 @@
 }
 
 .container{
-  background-color: 0,0,0,0.8;
-  background: linear-gradient(bisque, rgb(245, 178, 95));
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size:cover;
-  object-position: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+  
+  background-color: #333333;
+background-blend-mode: multiply;
+background-repeat: no-repeat;
+background-size: cover;
+object-position: center;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+font-family: Arial, sans-serif;
+text-align: center;
 }
 
 section {
