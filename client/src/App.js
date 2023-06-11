@@ -28,7 +28,7 @@ function App() {
           </ul>
         </nav>
         <img className="main-pic" src={me} alt="main pic"/>
-        <h3>Jake Gardner</h3>
+        <h3 className="dev-name">Jake Gardner</h3>
         <section>
           <h3>About</h3>
           <p>I am Jake, a software developer passionate about the development lifecycle. I have proper work experience with worksafe.</p>
@@ -65,8 +65,8 @@ function App() {
             <li>021 222 6444</li>
             <li>jake.aaron.g@gmail.com</li>
             <li>
-              <a id="linkedID" href="https://www.linkedin.com/in/jake-gardner-57437a224/" >
-                <img src={linkedIn} alt="LinkedIn" /></a>
+              <a id="linkedID" href="https://www.linkedin.com/in/jake-gardner-57437a224/" target="_blank" rel="noreferrer">
+                <img src={linkedIn} alt="LinkedIn"  /></a>
             </li>
           </ul>
         </section>
