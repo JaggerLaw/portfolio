@@ -17,8 +17,9 @@
   display: flex;
   justify-content: left;
   background-color: white;
-  color: white;
-
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
 }
 
 .main-navbar li{
@@ -27,7 +28,10 @@
   text-align: center;
   padding: 1rem 3rem;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
+}
+.main-navbar a{
+  text-decoration: none;
 }
 
 .container{
@@ -114,4 +118,8 @@ section h3 {
 
 .card a:hover {
   background-color: #0056b3;
+}
+
+.secondary-nav li{
+  text-decoration: none;
 }

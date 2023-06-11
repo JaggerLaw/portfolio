@@ -3,6 +3,7 @@ import project1 from './img/gira.jpg';
 import project2 from './img/projectR.jpg';
 import project3 from './img/logo192.png';
 import me from './img/jake-grad_cropped.jpg';
+import linkedIn from './img/linkedIn.png'
 
 function App() {
   document.title = 'Jake G Portfolio';
@@ -56,15 +57,20 @@ function App() {
             <a href="#LearnMore">Learn more</a>
           </div>
         </div>
+        <footer>
         <section>
           contact information
-          <ul>
-            <li>Location</li>
-            <li>Phone Number</li>
-            <li>Email</li>
-            <li>LinkedIn</li>
+          <ul className="secondary-nav">
+            <li>Howick, Botany</li>
+            <li>021 222 6444</li>
+            <li>jake.aaron.g@gmail.com</li>
+            <li>
+              <a id="linkedID" href="https://www.linkedin.com/in/jake-gardner-57437a224/" >
+                <img src={linkedIn} alt="LinkedIn" /></a>
+            </li>
           </ul>
         </section>
+        </footer>
       </div>
     </>
   );
