@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -12,15 +16,15 @@
 .dev-name{
   font-size: 38px;
   position: relative;
-  top: -240px;
+  top: -200px;
 }
 
 .main-navbar{
   margin: 0;
   background-image: url('./img/nav-img2.png');
-  background-size: cover;
+  background-size: 100% auto;
   height: 4rem;
-  width: 100vw;
+  width: 95vw;
   display: flex;
   justify-content: flex;
   background-color: white;
