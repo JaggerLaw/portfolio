@@ -34,7 +34,7 @@ function App() {
           <p>I am Jake, a software developer passionate about the development lifecycle. I have proper work experience with worksafe.</p>
         </section>
         <div>
-          <h3>Skills</h3>
+          <h3 className="sub-title">Skills</h3>
           <p>C++</p>
         </div>
         <div className="card-section">
@@ -58,6 +58,9 @@ function App() {
           </div>
         </div>
         <footer>
+          <div className="sub-title">
+            Contact Information
+          </div>
         <section>
           contact information
           <ul className="secondary-nav">
@@ -66,7 +69,7 @@ function App() {
             <li>jake.aaron.g@gmail.com</li>
             <li>
               <a id="linkedID" href="https://www.linkedin.com/in/jake-gardner-57437a224/" target="_blank" rel="noreferrer">
-                <img src={linkedIn} alt="LinkedIn"  /></a>
+                <img id="linkedInImg" src={linkedIn} alt="LinkedIn"  /></a>
             </li>
           </ul>
         </section>
